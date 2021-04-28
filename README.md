@@ -8,7 +8,7 @@ Simple WhatsApp Bot
 > pkg install ffmpeg -y
 > pkg install imagemagick -y
 > git clone https://github.com/maicosilver/botmod8
-> cd wabot-aq
+> cd botmod8
 > npm install
 ```
 
@@ -17,7 +17,7 @@ Simple WhatsApp Bot
 
 ```bash
 > git clone https://github.com/maicosilver/botmod8
-> cd wabot-aq
+> cd botmod8
 > npm install
 ```
 

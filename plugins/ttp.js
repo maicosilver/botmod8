@@ -11,7 +11,7 @@ let handler = async (m, { conn, text }) => {
 handler.help = ['ttp <teks>']
 handler.tags = ['sticker']
 handler.command = /^ttp$/i
-handler.owner = false
+handler.owner = true
 handler.mods = false
 handler.premium = false
 handler.group = true

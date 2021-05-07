@@ -1,5 +1,8 @@
-case 'nomemusica': 
-if (isBanned) return reply(mess.only.benned)    
-tujuh = fs.readFileSync('./umapasta/nomeaudio.mp3');
-client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-break
+let handler  = async (m, { conn }) => {
+       conn.sendFile(m.chat, 'media/bot.mp3', '', 'xd', m)
+}
+handler.command = /^(bd)$/i
+handler.fail = null
+handler.exp = 100
+module.exports = handler
+

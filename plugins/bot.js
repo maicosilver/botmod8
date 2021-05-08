@@ -6,6 +6,7 @@ let handler  = async (m, { conn }) => {
 	conn.sendFile(m.chat, 'media/bot.mp3', 'tts.opus', null, m, true)
 }
 handler.command = /^(bot)$/i
+handler.owner = true
 handler.fail = null
 handler.exp = 100
 module.exports = handler

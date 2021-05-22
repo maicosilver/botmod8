@@ -5,7 +5,7 @@ async function handler(m, { command }) {
     this.anonymous = this.anonymous ? this.anonymous : {}
     switch (command) {
         case 'ola':
-tujuh = fs.readFileSync('./assets/ola.mp3');
+tujuh = fs.readFileSync('./midia/Todocuriosoe.m4a');
 client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
 break
         }

@@ -4,7 +4,7 @@ async function handler(m, { command }) {
     command = command.toLowerCase()
     this.anonymous = this.anonymous ? this.anonymous : {}
     switch (command) {
-        case 'ola':
+        case 'hmm':
 tujuh = fs.readFileSync('./media/Todocuriosoe.m4a');
 client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
 break
@@ -34,7 +34,7 @@ break
 handler.help = ['start', 'leave', 'next']
 handler.tags = 'anonymous'
 
-handler.command = ['start', 'leave', 'next']
+handler.command = ['hmm']
 handler.private = true
 
 module.exports = handler
